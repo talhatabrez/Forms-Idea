@@ -1,0 +1,29 @@
+Forms Like Questionnaire site
+
+    Back End:
+        
+        Functionalities:
+            - Admin posts the questions and is able to see the answers
+            - User must answer the questions and send the responses
+            - User cannot edit their answers once sent and they cannot answer again once sent (Only one chance)
+
+        Admin:
+            - POST method: to send the questions
+            - GET method: to recieve the answers
+            - PUT method: to update the questions
+
+        User:  (/login, /signup)
+            - POST method: to send their responses
+
+        Questions for Schema:
+        1. What is your name?
+        2. What is your profession?
+        3. What is your age?
+        4. Are you happy with your work life balance?
+        5. If you are a student, are you happy with your marks?
+        6. What do you do to uplift your mood?
+        7. Your happiness scale on rate of 10?
+
+
+    Front End:
+
